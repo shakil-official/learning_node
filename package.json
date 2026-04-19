@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/shakil-official/learning_node#readme",
   "dependencies": {
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "express": "^5.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
