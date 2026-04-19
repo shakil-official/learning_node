@@ -9,6 +9,12 @@ app.get('/', (req, res) => {
   res.send('Hello World!'); // Send a response to the client
 });
 
+
+app.get('/about', (req, res) => {
+    res.send('<h1>About Us</h1><p>This is the about page.</p>'); // Send a response to the client for the about page
+});
+
+
 app.listen(port, () => { 
      log(`Example app listening at http://localhost:${port}`); // Log a message when the server starts
 });
