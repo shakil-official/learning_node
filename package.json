@@ -1,0 +1,32 @@
+{
+  "name": "learning-node-js",
+  "version": "1.0.0",
+  "description": "This is learing purpose using node js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shakil-official/learning_node.git"
+  },
+  "keywords": [
+    "node",
+    "learning",
+    "js"
+  ],
+  "author": "Shakil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakil-official/learning_node/issues"
+  },
+  "homepage": "https://github.com/shakil-official/learning_node#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

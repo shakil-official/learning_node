@@ -1,0 +1,8 @@
+{
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 26,
+    "editor.lineHeight": 24,
+    "editor.fontLigatures": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
+}
