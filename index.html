@@ -6,8 +6,18 @@
     <title>Node Js Learning</title>
 </head>
 <body>
-    <h1>Welcome to Node Js Learning</h1>
-    <p>This is a simple HTML page for the Node.js learning example.</p>
-
+    <h1>Login Form</h1>
+    <form action="/login" 
+            method="post" 
+            style="display: flex; 
+                    flex-direction: column;
+                    margin: 0 auto;
+                    width: 300px;">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
 </body>
 </html>
